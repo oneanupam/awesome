@@ -8,7 +8,7 @@ Below prerequisites must be fulfilled for successful execution of terraform code
 Resources in this repository are meant for use with Terraform (Check the version using `terraform --version`). If you don't have the compatible version, download it from official Terraform repository.
 
 -   [Terraform](https://www.terraform.io/downloads.html) >= 1.15.0
--   [terraform-provider-aws] plugin = 6.64.0
+-   [terraform-provider-aws](https://registry.terraform.io/providers/hashicorp/aws/latest) plugin = 6.64.0
 
 ### Permissions Requirement
 In order to successfully execute the code, you can have a user having "AdministratorAccess". Access can be more fine-grained to follow Principle of least privilege (PoLP).
