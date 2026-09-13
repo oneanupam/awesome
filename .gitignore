@@ -6,7 +6,7 @@
 *.tfstate.*
 
 # Ignore any terraform.tfvars file
-terraform.tfvars
+# terraform.tfvars
 
 # Ignore conf files
 *.conf
@@ -27,3 +27,19 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 *tfplan*
+
+# Credential files
+/credentials/*.json
+/credentials/*.json*
+
+# Exception for backend.conf file
+!/tf-standard_backends/backend.conf.
+
+# Exception for terraform.lock.hcl file, which is used to lock provider versions (recommended to be checked in)
+.terraform.lock.hcl
+
+
+_site/*
+Gemfile.lock
+**/_site/*
+**/.sass-cache/*
