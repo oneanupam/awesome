@@ -1,5 +1,7 @@
 <div align="center">
-![License: MIT][license]
+
+[![License: MIT][license-badge]][license-url]
+
 </div>
 
 ## Terraform AWS Lab
@@ -55,5 +57,6 @@ Once you have pre-commit installed, adding pre-commit plugins to your project is
 > https://www.terraform.io/cli
 > https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
-
-[license]: https://github.com/oneanupam/awesome/blob/main/LICENSE.md
+<!-- Reference Links & Images -->
+[license-badge]: https://shields.io
+[license-url]: https://github.com
