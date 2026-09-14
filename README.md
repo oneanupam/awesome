@@ -59,4 +59,4 @@ Once you have pre-commit installed, adding pre-commit plugins to your project is
 
 <!-- Reference Links & Images -->
 [license-badge]: https://shields.io
-[license-url]: https://github.com
+[license-url]: https://github.com/oneanupam/awesome/blob/main/LICENSE.md
