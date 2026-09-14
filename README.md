@@ -1,4 +1,8 @@
-# Terraform AWS Lab
+<div align="center">
+![License: MIT][license]
+</div>
+
+## Terraform AWS Lab
 This repository contains Terraform code for resource deployment on AWS Public Cloud.
 
 ## Prerequisites
@@ -50,3 +54,6 @@ Once you have pre-commit installed, adding pre-commit plugins to your project is
 ## Reference:
 > https://www.terraform.io/cli
 > https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+
+[license]: https://github.com/oneanupam/awesome/blob/main/LICENSE.md
