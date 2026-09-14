@@ -58,5 +58,5 @@ Once you have pre-commit installed, adding pre-commit plugins to your project is
 > https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 <!-- Reference Links & Images -->
-[license-badge]: https://shields.io
+[license-badge]: https://img.shields.io
 [license-url]: https://github.com/oneanupam/awesome/blob/main/LICENSE.md
