@@ -13,7 +13,7 @@ Below prerequisites must be fulfilled for successful execution of terraform code
 ### Software Requirement
 Resources in this repository are meant for use with Terraform (Check the version using `terraform --version`). If you don't have the compatible version, download it from official Terraform repository.
 
--   [Terraform](https://www.terraform.io/downloads.html) >= 1.15.0
+-   [Terraform][terraform-download-url] >= 1.15.0
 -   [terraform-provider-aws](https://registry.terraform.io/providers/hashicorp/aws/latest) plugin = 6.64.0
 
 ### Permissions Requirement
@@ -56,11 +56,8 @@ Once you have pre-commit installed, adding pre-commit plugins to your project is
 ## Reference:
 > https://www.terraform.io/cli
 > https://registry.terraform.io/providers/hashicorp/aws/latest/docs
-<div align="center">
 
-[![License: MIT][license-badge]][license-url]
-
-</div>
 <!-- Reference Links & Images -->
 [license-badge]: https://img.shields.io/github/license/oneanupam/awesome
 [license-url]: https://github.com/oneanupam/awesome/blob/main/LICENSE.md
+[terraform-download-url]: https://www.terraform.io/downloads.html
