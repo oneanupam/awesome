@@ -1,19 +1,31 @@
+# Locals block output
+output "all_local_values" {
+  value = {
+    available_regions = local.available_regions
+  }
+  description = "All the values of locals block"
+}
+
 # ID of the VPC
-output "dev_vpc_id" {
-  value = aws_vpc.dev_vpc.id
+output "bld_vpc_id" {
+  value       = aws_vpc.bld_vpc.id
+  description = "The id of the deployed vpc network"
 }
 
 # Amazon Resource Name (ARN) of VPC
-output "dev_vpc_arn" {
-  value = aws_vpc.dev_vpc.arn
+output "bld_vpc_arn" {
+  value       = aws_vpc.bld_vpc.arn
+  description = "The arn of the deployed vpc network"
 }
 
 # ID of the Subnet
-output "dev_subnet_id" {
-  value = aws_subnet.dev_subnet.id
+output "bld_subnet_id" {
+  value       = aws_subnet.bld_subnet.id
+  description = "The id of the deployed subnetwork"
 }
 
 # Amazon Resource Name (ARN) of Subnet
-output "tst_web_snet_arn" {
-  value = aws_subnet.dev_subnet.arn
+output "bld_subnet_arn" {
+  value       = aws_subnet.bld_subnet.arn
+  description = "The arn of the deployed subnetwork"
 }
