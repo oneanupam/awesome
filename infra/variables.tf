@@ -1,6 +1,8 @@
 # Variables Declaration
-# variable "aws_cliusr_access_key" {}
-# variable "aws_cliusr_secret_key" {}
+variable "tf_role_arn" {
+  type        = string
+  description = "The arn of the role created to deploy resources"
+}
 
 variable "aws_region" {
   type        = string
@@ -12,9 +14,15 @@ variable "aws_zone" {
   description = "The zone to deploy the resources"
 }
 
-variable "resource_tags" {
-  type        = map(any)
-  description = "Tags to apply to the resources"
+variable "env_shortcode" {
+  type        = string
+  description = "The environment to deploy the resources"
+}
+
+variable "bu_shortcode" {
+  type        = string
+  description = "The short code for the business unit"
+  default     = "fdn"
 }
 
 variable "vpc_cidr" {
