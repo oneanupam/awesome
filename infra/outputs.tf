@@ -19,13 +19,16 @@ output "bld_vpc_arn" {
 }
 
 # ID of the Subnet
-output "bld_subnet_id" {
-  value       = aws_subnet.bld_subnet.id
+output "bld_subnets" {
+  value       = aws_subnet.bld_subnets
   description = "The id of the deployed subnetwork"
 }
 
 # Amazon Resource Name (ARN) of Subnet
-output "bld_subnet_arn" {
-  value       = aws_subnet.bld_subnet.arn
-  description = "The arn of the deployed subnetwork"
+output "bld_subnets_id" {
+  description = "The IDs of the deployed subnetwork"
+  value = {
+    for subnet, details in aws_subnet.bld_subnets :
+    details.id => details.cidr_block
+  }
 }
