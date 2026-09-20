@@ -30,7 +30,7 @@ variable "vpc_cidr" {
   description = "The CIDR block for the VPC"
 }
 
-variable "subnet_cidr" {
-  type        = string
-  description = "The CIDR block for the subnet"
+variable "subnet_details" {
+  type        = map(map(string))
+  description = "The CIDR range for the subnets"
 }

@@ -5,5 +5,14 @@ aws_zone      = "eu-west-2a"
 bu_shortcode  = "fdn"
 env_shortcode = "bld"
 
-vpc_cidr    = "10.0.0.0/16"
-subnet_cidr = "10.0.1.0/24"
+vpc_cidr = "10.0.0.0/16"
+subnet_details = {
+  subnet_01 = {
+    name = "subnet-01"
+    cidr = "10.0.1.0/24"
+  },
+  subnet_02 = {
+    name = "subnet-02"
+    cidr = "10.0.5.0/24"
+  }
+}
